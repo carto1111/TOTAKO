@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cypc311
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cypc311
+  template:
+    metadata:
+      labels:
+        app: cypc311
+    spec:
+      containers:
+      - image: okteto.dev/cypc311:latest
+        name: cypc311
+        ports:
+        - containerPort: 8080
