@@ -6,19 +6,19 @@
           "inbounds": [
             {
               "port": 8080,
-              "protocol": "vless",
+              "protocol": "vmess",
               "settings": {
                 "decryption": "none",
                 "clients": [
                   {
-                    "id": "e812a3fe-9a66-4d7f-aa69-7d635ed8333e"
+                    "id": "ed7bc0c9-b9f9-49f8-a57a-5d962a9dbb89"
                   }
                 ]
               },
               "streamSettings": {
                 "network":"ws",
                 "wsSettings": {
-                  "path": "/"
+                  "path": ""
                 }
               }
             }
